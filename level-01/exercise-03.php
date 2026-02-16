@@ -11,13 +11,14 @@ per “h” però fals si preguntem per “l”.
 
 */
 
-function containsLetter($words, $letter) {   //dont need [] for the awway in function
-    for ($i = 0; $i < count($words); $i++) {
-            if (str_contains(strtolower($words[$i]), strtolower($letter))) { 
-                return true;
-            }    
-         } return false;
+function containsLetter(array $words, string $letter): bool {   //dont need [] for the array in function
+    foreach ($words as $word) {
+        if (!str_contains(strtolower($word), strtolower($letter))) { 
+            return false;
+        }    
     }
+    return true;
+}
 
 $words = ["hola", "Php", "html"];
 

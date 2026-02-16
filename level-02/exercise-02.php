@@ -20,7 +20,7 @@ $students = ["Diana" => [8, 9, 7, 6, 10],
              "Duna" => [8, 8, 9, 7, 8]]; 
 
 
-function calculateAverages($students) { 
+function calculateAverages(array $students): void { 
     $gradesSum = 0; // sum of all grades values
     $gradesCount = 0; // the amount of grades
     foreach ($students as $name => $grades) { // for each student on the students array, get their grades
