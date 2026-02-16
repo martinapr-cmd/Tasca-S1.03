@@ -1,15 +1,6 @@
 <?php
 
-/* 
-Imagina que tens dues llistes de convidats(representats/es únicament per noms). 
-Fes un programa que et retorni:
 
-- La llista de convidats en comú entre les dues llistes.
-- La mescla de la llista de convidats(sense repeticions).
-- La llista de convidats exclusius de la primera llista.
-- La llista de convidats exclusius de la segona llista.
-
-*/
 
 $guests1 = ["Anna", "Marc", "Raimon", "Jaume", "Noah"]; 
 $guests2 = ["Dalia", "Anna", "Jaume", "Mikey", "Noah", "Gorge", "Thalia"]; 
