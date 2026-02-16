@@ -28,7 +28,7 @@ email
 menjar favorit
 
 
--Nivell 2
+- Nivell 2
 
 Exercici 1
 Imagina que tens dues llistes de convidats(representats/es únicament per noms). Fes un programa que et retorni:
